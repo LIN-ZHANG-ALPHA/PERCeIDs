@@ -16,9 +16,9 @@ opts.GT   = communities_lab;
 opts.K    = size(opts.GT,2); %  num of communities
 
 %%  parameter setting
-opts.lambda_0           = 1;
-opts.lambda_1           = 1;
-opts.lambda_2           = 1;
+opts.lambda_0           = 1; % enforcing periodic behavior
+opts.lambda_1           = 1; % period sparsity
+opts.lambda_2           = 1; % outliers sparsity
 
 opts_pcd.max_iter       = 200;
 opts_pcd.Pmax           = 10;
