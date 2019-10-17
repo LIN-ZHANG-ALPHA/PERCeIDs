@@ -22,7 +22,7 @@ opts.lambda_2           = 1;
 
 opts_pcd.max_iter       = 200;
 opts_pcd.Pmax           = 10;
-
+opts_pcd.Penalty_type   = 'square';
 %%  main function 
 
 [Fac.Fac_PCD_L1] = detect_community_PCD(X,opts,opts_pcd);
