@@ -27,8 +27,6 @@ opts_pcd.Penalty_type   = 'square';
 
 [Fac.Fac_PCD_L1] = detect_community_PCD(X,opts,opts_pcd);
 
-
-
 %% evlauation
 opts.JSDiv = 1;
 opts.NMI   = 1;
