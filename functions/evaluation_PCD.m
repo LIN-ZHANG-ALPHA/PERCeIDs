@@ -28,7 +28,7 @@ commu_pcd_L1.C  = normc(Fac_PCD_L1{1});
 
 
 
-C_GT                     = double(logical(opts.GT));
+C_GT                = double(logical(opts.GT));
 groundtruth.C       = C_GT; %normc(C_GT);
 
 
